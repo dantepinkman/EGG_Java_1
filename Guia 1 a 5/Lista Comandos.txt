@@ -1,0 +1,55 @@
+
+git init      //crea la rama master.
+
+git remote add origin https://github.com/dantepinkman/EGG2-Backend-1.git     //vincula el local con el remoto.
+
+git remote -v      //corrobora si te vinculaste bien.
+
+git congfig -l      //te entrega la lista de configuraciones.
+
+git config --global user.name "GianniCasa"     // para poner el nombre local.
+
+git status     //te muestra en rojo lo que es nuevo (que aun no se a subido al servidor), y en verde lo que esta actualizado.
+
+git add .      //para añadir todo antes de agregar el commit.
+
+git commit -m "Primer Commit"     //añade el commit, es decir la version.
+
+git push origin master      //subir el repositorio a github.
+
+git pull origin master     //descargar el repositorio de github.
+
+git fetch     //trae la informacion sobre ramas.
+
+git checkout NOMBRE_DE_LA_RAMA     //nos mueve a otra rama de trabajo o versiones.
+
+
+Resumido:
+git init
+git remote add origin LINK DE GIT
+git add .
+git commit -m "COMENTARIO O VERSION"
+git push origin master
+
+
+Otros:git 
+
+<<<<<<< HEAD
+wq  //para salir de la sub ventana de datos.
+=======
+:wq     //para salir de la sub ventana de datos.
+>>>>>>> 7a82a7dbd3c8b940fbb7138f7ddec5530b56b998
+
+git log     //nos tira el historial de cambios en esta rama
+
+git diff      //permite ver las diferencias en cuanto al commit anterior
+
+git log      //nos permite ver el historial.
+
+clear      //limpia la ventana.
+
+git --help
+
+Lista de todos los comandos:
+https://git-scm.com/docs
+
