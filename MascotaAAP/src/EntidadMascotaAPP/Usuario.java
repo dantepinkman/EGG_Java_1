@@ -10,4 +10,17 @@ public class Usuario {
     public Date nacimiento;
     public String pais;
 
+    public Usuario(String nombre, String apellido, String DNI, Date nacimiento, String pais) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.DNI = DNI;
+        this.nacimiento = nacimiento;
+        this.pais = pais;
+    }
+
+    public Usuario() {
+    }
+    
+    
+
 }
