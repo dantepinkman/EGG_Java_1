@@ -8,10 +8,8 @@ package Guia_5;
 import java.util.Scanner;
 
 /**
- *
  * 1-Realizar un algoritmo que calcule la suma de todos los elementos de un
  * vector de tamaño N, con los valores ingresados por el usuario.
- *
  */
 public class Ej_Extra_1 {
 
@@ -20,8 +18,8 @@ public class Ej_Extra_1 {
     public static void main(String[] args) {
 
         int suma = 0;
-        System.out.println("Ingresa el Tamaño");
 
+        System.out.println("Ingresa el Tamaño");
         int tamano = leer.nextInt();
 
         int[] vector = new int[tamano];

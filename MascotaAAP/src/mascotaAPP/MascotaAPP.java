@@ -12,9 +12,8 @@ public class MascotaAPP {
         
         System.out.println("Ingrese nombre");
         Mascota m1 = new Mascota("Chiquito", leer.next(), "feo", "Amarillo", 0, true, "perro");
-        System.out.println(m1.apodo + " " + m1.nombre+" "+m1.tipo);
+        //System.out.println(m1.apodo + " " + m1.nombre+" "+m1.tipo);
         
-        m1.
         
     }
 }
