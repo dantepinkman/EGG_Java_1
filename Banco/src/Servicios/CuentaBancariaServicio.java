@@ -14,8 +14,10 @@ public class CuentaBancariaServicio {
         c1.setDni(leer.nextLong());
         System.out.println("Ingrese numero de cuenta");
         c1.setNumeroCuenta(leer.nextInt());
+        
         // System.out.println("Ingrese Saldo");
         // c1.setSaldo(leer.nextDouble());
+        
         return c1;
     }
 

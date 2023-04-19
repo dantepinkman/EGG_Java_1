@@ -13,7 +13,8 @@ public class Main {
         CuentaBancariaServicio cs1 = new CuentaBancariaServicio();
         CuentaBancaria cb1 = cs1.crearCuenta();
 
-        System.out.println("Que desea hacer:"
+        do {            
+          System.out.println("Que desea hacer:"
                 + "\n1-Retirar"
                 + "\n2-Extraccion Rapida"
                 + "\n3-Ingresar Saldo"
@@ -40,7 +41,10 @@ public class Main {
                 break;
             default:
                 throw new AssertionError();
-        }
+        }  
+        } while (true);
+        
+        
 
         //System.out.flush();
     }
