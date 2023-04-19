@@ -4,7 +4,7 @@ package Entidades;
 public class CuentaBancaria {
 private int numeroCuenta;
 private long dni;
-private double saldo;
+private double saldo = 1000;
 private double nuevoSaldo;
 private double retirar;
 
