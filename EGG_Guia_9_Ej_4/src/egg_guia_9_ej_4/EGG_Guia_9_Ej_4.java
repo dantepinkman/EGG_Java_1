@@ -18,6 +18,7 @@ public class EGG_Guia_9_Ej_4 {
         System.out.println("Su fecha de nacimiento es " + new SimpleDateFormat("yyyy,mm,dd").format(nacimiento));
         System.out.println(actual);   //sin cambiar a formato simple
         System.out.println("Su edad acual en años es " + anios);
+        
     }
     
 }
