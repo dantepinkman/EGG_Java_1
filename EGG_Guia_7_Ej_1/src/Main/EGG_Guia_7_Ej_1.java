@@ -13,16 +13,13 @@ public class EGG_Guia_7_Ej_1 {
         int n = 3;
         Libro[] l = new Libro[n];
         LibroServicios ls = new LibroServicios();
-        
-        for (int i = 0; i < l.length; i++) {
-        l[i] = ls.crearLibro();
-        }
-        for (int i = 0; i < l.length; i++) {
-        ls.informarLibro(l[i]);
-        
-        }
 
-        
+        for (int i = 0; i < l.length; i++) {
+            l[i] = ls.crearLibro();
+        }
+        for (int i = 0; i < l.length; i++) {
+            ls.informarLibro(l[i]); 
+        }
 
         /*
         System.out.println("Desea Conocer los datos del libro Ingresado?");
@@ -43,7 +40,7 @@ public class EGG_Guia_7_Ej_1 {
                 System.out.println("ok");
             }
         }
-*/
+         */
     }
 
 }
