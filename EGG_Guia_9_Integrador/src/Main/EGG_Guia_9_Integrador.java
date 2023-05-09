@@ -1,20 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package Main;
 
-/**
- *
- * @author Gianni
- */
+import Servicios.EstudiantesServicio;
+
 public class EGG_Guia_9_Integrador {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        EstudiantesServicio es = new EstudiantesServicio();
+        
+        for (int i = 2; i <= 128; i*=2) {
+            System.out.println("i " + i);
+        }
+        
+        es.agregarEstudiante();
+        es.mostrarEstudiante();
+        es.promedioNotas();
+        
     }
     
 }

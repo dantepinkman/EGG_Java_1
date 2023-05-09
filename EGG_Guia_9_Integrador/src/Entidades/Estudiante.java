@@ -2,15 +2,15 @@
 package Entidades;
 
 
-public class Estudiantes {
+public class Estudiante {
     
     private String nombre;
-    private int nota;
+    private Double nota;
 
-    public Estudiantes() {
+    public Estudiante() {
     }
 
-    public Estudiantes(String nombre, int nota) {
+    public Estudiante(String nombre, Double nota) {
         this.nombre = nombre;
         this.nota = nota;
     }
@@ -23,14 +23,12 @@ public class Estudiantes {
         this.nombre = nombre;
     }
 
-    public int getNota() {
+    public Double getNota() {
         return nota;
     }
 
-    public void setNota(int nota) {
+    public void setNota(Double nota) {
         this.nota = nota;
     }
-    
-    
-    
+     
 }
