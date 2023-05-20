@@ -7,6 +7,8 @@ public class HojaPerroServicio {
     
     Scanner leer = new Scanner(System.in).useDelimiter("\n");
     
+    
+    
     HojaPerro hp = new HojaPerro();
     HojaPerro hp1 = new HojaPerro();
     HojaPerro hp2 = new HojaPerro();
